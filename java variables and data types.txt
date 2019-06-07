@@ -1,0 +1,66 @@
+                JAVA VARIABLES
+# variables are container for storing data values.
+# Variables declaration : 
+    Syntax :  type variable = value;
+    where type is one of java's data types, variables is name of the variable, equal sign is used to assign values.
+# Java identifiers :
+- All java variables must be identified with unique names.
+- These unique names are called identifiers.
+    RULES FOR CONSTRUCTING NAME FOR VARIABLES / identifiers
+    - names can contain letter, digits, underscore(_) and dollar sign($)
+    - names should begin with a letter.
+    - names can also begin with _ and $.
+    - names are case-sensitive.
+    - names should start with a lowercase letter and it can not contain whitespaces.
+    - Java keywords can not be used as names.
+
+#####################################################################################################################################################################
+
+
+                JAVA DATA  TYPES
+- Data types are divided into two groups.
+    - Primititve :  byte, char, short, int, long, float, double, boolean.
+    - Non-Primititve : String, Array, and classes.
+## PRIMITIVE DATA TYPES:
+# Integer type:
+    1. byte : byte data type can store whole number from -128 to 127.
+    2. short : short data type can store whole number from -32768 to 32767.
+    3. int : int data type can store whole number from -2147483648 to 2147483647.
+    4. long : long data type can store whole number from -9223372036854735808 to 9223372036854735807. You should end the value with L.
+# Floating point type :
+    You should use a floating point type whenever you need a number with a decimal.
+    1. float : The float data type can store fractional number from 3.4e-038 ti 3.4e+038. 
+                precision of float data type is upto 6-7 decimal places.
+                You should end the value with f.
+    2. double : double data type  can store fractional number from 1.7e-308 to 1.7e+308.
+                Precision of double data type is 15 decimal places.
+                You should end the value with a d.
+# Scientific number : A floating point number can also be a scientific number with an e indicating the power of 10.
+    //float f1=35e3f
+# Boolean : A boolean data type is declared withthe boolean keyword and can only take the values true or false. Boolean values are mostly used for condition testing.
+# Characters : char data type is used to store a single character .The character must be surrounded by single quotes. Alternatively you can use ASCII values to display certain characters.
+# Strings : The string data type is used to store a sequence of characters (text). String values must be surrounded by double quotes.
+
+## NON- PRIMITIVE DATA TYPES:
+    Non-primitive data types are called reference types because they refer to objects.
+# Difference between primitive and non-primitive data types.
+    1. Primitive data types are predefined in java while non primitive data types are created by the programmer except string.
+    2. Non-primitive type can be used to call methods to perorm certain operations, while primitive types can't.
+    3. A primitive type always has a value, while non-primitive type can be null.
+    4. A primitive type starts with a lowercase letter, while non-primitive type starts with an uppercase letter.
+    5. The size of the primitive type depends on the data type, while non-primitive type have all the same size.
+
+
+#######################################################################################################################################################################
+
+
+JAVA TYPE CASTING 
+
+Typecasting is when you assign a value of one primitive data type to another type.
+Typecasting can be done in two different ways :
+1. WIDENING CASTING (automatically): converting smaller data type to larger data type
+    byte -> short -> char -> int -> long -> float -> double 
+2. NARROWING CASTING (manually) : converting larger data type to smaller data types
+    double -> float -> long -> int -> char -> short -> byte
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HOPE IT WILL HELP YOU!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
